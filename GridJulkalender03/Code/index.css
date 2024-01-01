@@ -1,0 +1,195 @@
+
+@font-face {
+    font-family: FastMotion;
+    src: url(../Assets/Fonts/FastMotion.ttf);
+}
+
+body {
+    background-color: gray;
+}
+
+h2 {
+    text-align: center;
+    align-self: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 27px;
+    background: linear-gradient(100deg, #76e9b9, #708fe6);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+.doorframe {
+    display: flex;
+    perspective: 1200px;
+    transform-style: preserve-3d;
+
+    background-color: #708fe6;
+    width: fit-content;
+    height: fit-content;
+}
+
+.door {
+    background: linear-gradient(295deg, rgb(59, 158, 224), rgb(170, 67, 99));
+    text-align: center;
+
+    border: 3px black solid;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    flex-grow: 1;
+    transform-style: preserve-3d;
+    transform-origin: left center;
+    transition: all 0.5s;
+    backface-visibility: visible;
+    position: relative;
+}
+
+.doorframe:focus .door,
+.doorframe:hover .door {
+  /* 8 */ transform: rotate3d(0, 1, 0, -130deg);
+}
+
+.GridContainer {
+    margin: 5%;
+    padding: 1%;
+    border: 3px black solid;
+    border-radius: 10px;
+    height: fit-content;
+
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 20px;
+}
+
+.GridItem {
+    border: 3px black solid;
+    border-radius: 15px;
+    min-width: 150px;
+    min-height: 150px;
+    width: 100%;
+    height: 100%;
+}
+
+.Title {
+    background: linear-gradient(135deg, rgb(245, 185, 118), rgb(230, 121, 157));
+    width: 100%;
+    height: 150px;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+}
+
+.TitleText {
+ margin-top: 55px;
+}
+
+.Long {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.Tall {
+    grid-column: span 1;
+    grid-row:  span 2;
+}
+
+.Big {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.Item01 {
+    background: url(../Assets/Img/Luckor/01.webp) no-repeat center fixed;
+    background-size: cover;
+}
+.Item02 {
+    background: url(../Assets/Img/Luckor/02.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+.Item03 {
+    background: url(../Assets/Img/Luckor/03.jpg) no-repeat center fixed;
+    background-size: contain;
+}
+.Item04 {
+    background: url(../Assets/Img/Luckor/04.webp) no-repeat center fixed;
+    background-size:contain;
+}
+.Item05 {
+    background: url(../Assets/Img/Luckor/05.jpg) no-repeat center fixed;
+    background-size:contain;
+}
+.Item06 {
+    background: url(../Assets/Img/Luckor/06.jpg) no-repeat center fixed;
+    background-size:contain;
+}
+.Item07 {
+    background: url(../Assets/Img/Luckor/07.jpg) no-repeat center fixed;
+    background-size:contain;
+}
+.Item08 {
+    background: url(../Assets/Img/Luckor/08.jpg) no-repeat center fixed;
+    background-size:contain;
+}
+.Item09 {
+    background: url(../Assets/Img/Luckor/09.jpg) no-repeat center fixed;
+    background-size:contain;
+}
+.Item10 {
+    background: url(../Assets/Img/Luckor/10.png) no-repeat center fixed;
+    background-size:contain;
+}
+.Item11 {
+    background: url(../Assets/Img/Luckor/11.jpeg) no-repeat center fixed;
+    background-size:contain;
+}
+.Item12 {
+    background: url(../Assets/Img/Luckor/12.jpg) no-repeat center fixed;
+    background-size:contain;
+}
+.Item13 {
+    background: url(../Assets/Img/Luckor/13.avif) no-repeat center fixed;
+    background-size:contain;
+}
+.Item14 {
+    background: url(../Assets/Img/Luckor/14.jpg) no-repeat center fixed;
+    background-size:contain;
+}
+.Item15 {
+    background: url(../Assets/Img/Luckor/15.jpg) no-repeat center fixed;
+    background-size:contain;
+}
+.Item16 {
+    background: url(../Assets/Img/Luckor/16.jpg) no-repeat center fixed;
+    background-size:contain;
+}
+.Item17 {
+    background: url(../Assets/Img/Luckor/17.jpg) no-repeat center fixed;
+    background-size:contain;
+}
+.Item18 {
+    background: url(../Assets/Img/Luckor/18.webp) no-repeat center fixed;
+    background-size:contain;
+}
+.Item19 {
+    background: url(../Assets/Img/Luckor/19.jpg) no-repeat center fixed;
+    background-size:contain;
+}
+.Item20 {
+    background: url(../Assets/Img/Luckor/20.jpg) no-repeat center fixed;
+    background-size:contain;
+}
+.Item21 {
+    background: url(../Assets/Img/Luckor/21.webp) no-repeat center fixed;
+    background-size:contain;
+}
+.Item22 {
+    background: url(../Assets/Img/Luckor/22.jpg) no-repeat center fixed;
+    background-size:contain;
+}
+.Item23 {
+    background: url(../Assets/Img/Luckor/23.jpg) no-repeat center fixed;
+    background-size:contain;
+}
+.Item24 {
+    background: url(../Assets/Img/Luckor/24.png) no-repeat center fixed;
+    background-size:contain;
+}
